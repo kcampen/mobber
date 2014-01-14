@@ -1,0 +1,49 @@
+main
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	height: 70px;
+	min-width: 960px;
+	background: rgb(58, 58, 58);
+	font-family: 'Questrial', sans-serif;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.banner h3 {
+	height: 100px;
+	min-width: 960px;
+	margin: 0px;
+	background: #fff;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	color: black;
+}
+
+.middle {
+	height: 300px;
+	min-width: 960px;
+	background-color: rgb(242,240,236);
+
+}
+
+.white {
+	height: 300px;
+	min-width: 960px;
+	background-color: #fff
+}
+
+.footer {
+	height: 100px;
+	min-width: 960px;
+	background-color: rgb(84,83,82);
+
+}
+
