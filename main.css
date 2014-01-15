@@ -1,45 +1,136 @@
-
 body {
-	margin: 0 auto;
+	font-family: 'Didact Gothic', sans-serif;
+	margin: 0;
 	padding: 0;
 }
 
 
+body * {
+	vertical-align: top;
+
+}
+
+
 .header {
+	position: relative;
+	color: #fff;
 	height: 60px;
-	min-width: 960px;
-	background-image: url(http://s16.postimg.org/fs0bc9fqt/Screen_Shot_2014_01_14_at_7_44_06_PM.png);
-  	background-position: center top;
-  	background-repeat:repeat-x;
-  	color: #fff;
-  	opacity: 2;
-}	
+	margin: 0;
+	background: url('images/header.png'); 
+	background-repeat: repeat-x top-left;
 
+}
 
-.header h1 {
-	font-family: 'Molengo', sans-serif;
-	height: 67px;
-	min-width: 960px;
-	padding: 10px;
-	font-size: 15px;
-	position: absolute;
-	text-indent: 400px;
-	margin: bottom;
+.container {
+	width: 960px;
+	margin: 0 auto;
 }
 
 .logo {
-	height: 60px;
-	margin-left: 160px;
-	min-width: 960px;
-	background-image: url(http://s23.postimg.org/6skr3zbzf/Screen_Shot_2014_01_14_at_11_02_54_PM.png);
-	background-repeat: no-repeat;
-	background-position: top-left;
-	opacity: 1;
+	width: 160px;
+	display: inline-block;
 
 }
 
+.nav {
+	display: inline-block;
+	margin: 0 0 0 40px;
+	padding: 0;
+
+}
+
+.nav ul {
+	display: inline-block;
+}
+
+.nav li {
+	list-style-type: none;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 30px;
+	text-shadow: 0 1px 1px #000;
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: white;
+
+}
+
+.username {
+	display: inline-block;
+	right: 0;
+	top: 5px;
+	right: 0;
+
+}
+
+.usermenu {
+	right: 0;
+	top: 5;
+	right: 0;
+	display: inline-block;
+	float: right;
+
+}
+
+.usermenu .avatar {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	border-radius: 50px;
+}
+
+.avatar img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.user-menu .user-menu-button {
+	width: 20px;
+	height: 20px;
+	margin: top;		
+	background: url("image/button.png");
+	display: inline-block;
+}
+
+.banner h1 {
+	height: 70px;
+	min-width: 960px;
+	margin: 0px;
+	background: #fff;
+	text-align: center;
+	font-family: 'Didact Gothic', sans-serif;
+	color: black;
+	font-size: 30px;
+	font-weight: -1px;
+}
+
+.middle {
+	height: 570px;
+	min-width: 960px;
+	background-color: rgb(242,240,236);
+	position: relative;
+
+}
+
+.white {
+	height: 600px;
+	min-width: 960px;
+	background-color: #fff
+}
+
+
+.footer {
+	height: 200px;
+	min-width: 960px;
+	background-color: rgb(84,83,82);
+
+}
+
+
+/*
 .header h2 {
-	font-family: 'Molengo', sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 	height: 60px;
 	min-width: 960px;
 	padding: 10px;
@@ -55,7 +146,7 @@ body {
 	margin: 0px;
 	background: #fff;
 	text-align: center;
-	font-family: 'Molengo', sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 	color: black;
 	font-size: 35px;
 	font-weight: -1px
@@ -93,4 +184,4 @@ body {
 	background-color: rgb(84,83,82);
 
 }
-
+*/
