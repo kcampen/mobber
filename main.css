@@ -24,6 +24,7 @@ body * {
 .container {
 	width: 960px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .logo {
@@ -54,12 +55,16 @@ body * {
 	color: white;
 
 }
+/*right header*/
 
 .username {
 	display: inline-block;
-	right: 0;
-	top: 5px;
-	right: 0;
+	font-family: 'Didact Gothic', sans-serif;
+	margin: 0 0 0 60px;
+	padding-bottom: 15px;
+	margin-top: 12px;
+	margin-left: 60px; 
+	letter-spacing: 1px;
 
 }
 
@@ -68,11 +73,11 @@ body * {
 	top: 5;
 	right: 0;
 	display: inline-block;
-	float: right;
+	position: absolute;
 
 }
 
-.usermenu .avatar {
+ .avatar {
 	width: 50px;
 	height: 50px;
 	position: absolute;
@@ -80,22 +85,27 @@ body * {
 }
 
 .avatar img {
+	margin: (0 -5);
+	display: inline-block;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
 }
 
-.user-menu .user-menu-button {
-	width: 20px;
-	height: 20px;
-	margin: top;		
-	background: url("image/button.png");
+.usermenubutton {
+	width: 23px;
+	height: 60px;	
+	margin: -5 3 ;
 	display: inline-block;
+	
 }
+
+
+/* Banner! */
+
 
 .banner h1 {
 	height: 70px;
-	min-width: 960px;
 	margin: 0px;
 	background: #fff;
 	text-align: center;
@@ -104,79 +114,78 @@ body * {
 	font-size: 30px;
 	font-weight: -1px;
 }
+/*end header*/
 
-.middle {
-	height: 570px;
-	min-width: 960px;
-	background-color: rgb(242,240,236);
-	position: relative;
 
+/*left middle*/
+.leftcontainer {
+	width: 640px;
+	display: inline-block;
+	border: red 2px solid;
+	top: 10%;
 }
 
-.white {
+
+
+
+/*end left middle*/
+
+/*right side box*/
+.middle {
 	height: 600px;
 	min-width: 960px;
-	background-color: #fff
-}
-
-
-.footer {
-	height: 200px;
-	min-width: 960px;
-	background-color: rgb(84,83,82);
-
-}
-
-
-/*
-.header h2 {
-	font-family: 'Didact Gothic', sans-serif;
-	height: 60px;
-	min-width: 960px;
-	padding: 10px;
-	font-size: 15px;
-	position: relative;
-	
-	margin: right;
-}
-
-.banner h4 {
-	height: 70px;
-	min-width: 960px;
-	margin: 0px;
-	background: #fff;
-	text-align: center;
-	font-family: 'Didact Gothic', sans-serif;
-	color: black;
-	font-size: 35px;
-	font-weight: -1px
-
-}
-
-.middle {
-	height: 570px;
-	min-width: 960px;
 	background-color: rgb(242,240,236);
 	position: relative;
+	border: blue 2px solid;
 
 }
 
-.image {
-	padding: 0px;
-	margin-left: 160px;
-	border-top: 100px;
+.sidebar {
+	width: 320px;
+	display: inline-block;
+	border: yellow 2px solid;
+	margin: 0, 645;
+
+}
+
+.box1 {
+	border: 2px solid gray;
+	width: 140px;
+	height: 150px;
+	padding-top: 25px;
+	margin-left: 400px;
+	top: 20px;
+	border: green 2px solid;
+}
+
+.box2 {
+	width: 140px;
+	height: 150px;
+	border: 2px solid gray;
+	margin-left: 565px;
+	margin-top: -154px;
+	border: purple 2px solid;
+}
+
+.graybox {
 	position: absolute;
-	top: 50px;
-	height: 160px;
-	
+	background: rgb(207, 205, 199);
+	width: 600px;
+	height: 65px;
+	margin-top: 10px;
 
 }
 
+/*end right side box*/
+
 .white {
-	height: 600px;
 	min-width: 960px;
 	background-color: #fff
 }
+
+
+
+/**/
 
 .footer {
 	height: 200px;
@@ -184,4 +193,73 @@ body * {
 	background-color: rgb(84,83,82);
 
 }
-*/
+
+.content {
+	display: inline-block;
+
+}
+
+/*right style*/
+.joinmob .joinbutton {
+	position: relative;
+	border: 1px solid rgb(210,143,0);
+	border-radius: 6px;
+	line-height: 60px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	background: yellow;
+	margin-top: 30px
+
+}
+
+.joincard {
+	width: 280px;
+	border: 1px solid rgb(162, 162, 162);
+	border-radius: 6px;
+	background: #fff;
+	height: 60px;
+}
+
+
+/*ribbon*/
+.el {
+	display: block;
+	position: relative;
+	top: -20px;
+	height: 29px;
+	left: -2px;
+	width: 138px;
+	background: #fdd100;
+	
+	}
+	
+.el:before, .el:after {
+	content: '';
+	display: block;
+	position: absolute;
+	border-style: solid;
+	
+	}
+	
+.el:before {
+	display: block;
+	left: 0;
+	top: 29px;
+	border-width: 8px;
+	border-color: #fdd100 #fdd100 transparent transparent;
+	
+	}
+	
+.el:after {
+	display: none;
+	right: 0;
+	top: 29px;
+	border-width: 8px;
+	border-color: #fdd100 transparent transparent #fdd100;
+	
+	}
+	/*end ribbon*/
+
+
+
