@@ -144,27 +144,30 @@ body * {
 	width: 320px;
 	display: inline-block;
 	border: yellow 2px solid;
-	margin: 0, 645;
+	margin-left: 650px;
+	margin-top: -405px;
 
 }
 
 .box1 {
-	border: 2px solid gray;
 	width: 140px;
 	height: 150px;
 	padding-top: 25px;
-	margin-left: 400px;
+	margin-left: 1px;
 	top: 20px;
 	border: green 2px solid;
+	background: rgb(207, 205, 199)
 }
 
 .box2 {
 	width: 140px;
 	height: 150px;
 	border: 2px solid gray;
-	margin-left: 565px;
-	margin-top: -154px;
+	margin-left: 170px;
+	margin-top: -178px;
 	border: purple 2px solid;
+	padding-top: 25px;
+	background: rgb(207, 205, 199)
 }
 
 .graybox {
@@ -172,11 +175,50 @@ body * {
 	background: rgb(207, 205, 199);
 	width: 600px;
 	height: 65px;
-	margin-top: 10px;
+	margin-top: 1px;
 
 }
 
+.leftnumber {
+	font-size: 12px;
+}
+
+.leftclass{
+	font-size: 10px;
+	text-transform: uppercase;
+
+}
+
+.boxdiv1 {
+	width: 140px;
+	height: 50px;
+	margin-left: -2px;
+	margin-top: 83px;
+	border: green 2px solid;
+	background: rgb(207, 205, 199)
+
+}
+
+.rightnumber {
+	font-weight: 5px;
+	font-size: 12px;
+}
+
+.rightclass {
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.boxdiv2 {
+	width: 138px;
+	height: 50px;
+	border: solid 2px blue;
+	margin-top: 81px
+
+}
 /*end right side box*/
+
+
 
 .white {
 	min-width: 960px;
@@ -184,15 +226,6 @@ body * {
 }
 
 
-
-/**/
-
-.footer {
-	height: 200px;
-	min-width: 960px;
-	background-color: rgb(84,83,82);
-
-}
 
 .content {
 	display: inline-block;
@@ -213,22 +246,29 @@ body * {
 
 }
 
-.joincard {
+.joinmob {
 	width: 280px;
 	border: 1px solid rgb(162, 162, 162);
 	border-radius: 6px;
-	background: #fff;
+	background: rgb(252,209,0);
 	height: 60px;
 }
+
+.joincard {
+	border: solid 2px blue;
+	height: 45px;
+	margin-top: 0;
+}
+
 
 
 /*ribbon*/
 .el {
 	display: block;
 	position: relative;
-	top: -20px;
+	top: -22px;
 	height: 29px;
-	left: -2px;
+	left: -4px;
 	width: 138px;
 	background: #fdd100;
 	
@@ -261,5 +301,13 @@ body * {
 	}
 	/*end ribbon*/
 
+/**/
+
+.footer {
+	height: 200px;
+	min-width: 960px;
+	background-color: rgb(84,83,82);
+
+}
 
 
