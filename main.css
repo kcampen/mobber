@@ -59,6 +59,7 @@ body * {
 
 .username {
 	display: inline-block;
+	list-style-type: none;
 	font-family: 'Didact Gothic', sans-serif;
 	margin: 0 0 0 60px;
 	padding-bottom: 15px;
@@ -103,6 +104,10 @@ body * {
 
 /* Banner! */
 
+.banner {
+	box-shadow: 0 2px 2px #444;
+
+}
 
 .banner h1 {
 	height: 70px;
@@ -113,124 +118,171 @@ body * {
 	color: black;
 	font-size: 30px;
 	font-weight: -1px;
+
 }
 /*end header*/
-
-
-/*left middle*/
-.leftcontainer {
-	width: 640px;
-	display: inline-block;
-	border: red 2px solid;
-	top: 10%;
-}
-
-
-
-
-/*end left middle*/
-
-/*right side box*/
 .middle {
-	height: 600px;
+	height: 580px;
 	min-width: 960px;
 	background-color: rgb(242,240,236);
 	position: relative;
-	border: blue 2px solid;
 
-}
-
-.sidebar {
-	width: 320px;
-	display: inline-block;
-	border: yellow 2px solid;
-	margin-left: 650px;
-	margin-top: -405px;
-
-}
-
-.box1 {
-	width: 140px;
-	height: 150px;
-	padding-top: 25px;
-	margin-left: 1px;
-	top: 20px;
-	border: green 2px solid;
-	background: rgb(207, 205, 199)
-}
-
-.box2 {
-	width: 140px;
-	height: 150px;
-	border: 2px solid gray;
-	margin-left: 170px;
-	margin-top: -178px;
-	border: purple 2px solid;
-	padding-top: 25px;
-	background: rgb(207, 205, 199)
-}
-
-.graybox {
-	position: absolute;
-	background: rgb(207, 205, 199);
-	width: 600px;
-	height: 65px;
-	margin-top: 1px;
-
-}
-
-.leftnumber {
-	font-size: 12px;
-}
-
-.leftclass{
-	font-size: 10px;
-	text-transform: uppercase;
-
-}
-
-.boxdiv1 {
-	width: 140px;
-	height: 50px;
-	margin-left: -2px;
-	margin-top: 83px;
-	border: green 2px solid;
-	background: rgb(207, 205, 199)
-
-}
-
-.rightnumber {
-	font-weight: 5px;
-	font-size: 12px;
-}
-
-.rightclass {
-	font-size: 10px;
-	text-transform: uppercase;
-}
-
-.boxdiv2 {
-	width: 138px;
-	height: 50px;
-	border: solid 2px blue;
-	margin-top: 81px
-
-}
-/*end right side box*/
-
-
-
-.white {
-	min-width: 960px;
-	background-color: #fff
 }
 
 
 
 .content {
 	display: inline-block;
+	width: 620px;
 
 }
+
+/*left middle*/
+.leftcontainer {
+	width: 620px;
+	height: 485px;
+	display: inline-block;
+	top: 10%;
+}
+
+.content {
+	width: 620px;
+	height: 400px;
+	background: url("images/arcade.png");
+
+}
+
+.bannertop {
+	height: 52px;
+	width: 620px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.toptext {
+	margin: 7px 26px;
+	display: inline-block;
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	list-style-type: none;
+
+}
+
+.toptext2 {
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+	list-style-type: none;
+	width: 170px;
+	margin: -25px 400px;
+}
+
+.graybox {
+	position: absolute;
+	background: rgb(208, 205, 199);
+	width: 620px;
+	height: 85px;
+	margin-top: 348px;
+	font-size: 19px;
+
+}
+
+.bottom1 {
+	color: rgb(120, 120, 120);
+	font-size: 13px;
+	outline: solid 2px orange;
+
+}
+
+/*end left middle*/
+
+/*right side box*/
+
+
+.sidebar {
+	width: 300px;
+	height: 375px;
+	display: inline-block;
+	border: yellow 2px solid;
+}
+
+.box1 {
+	width: 140px;
+	height: 150px;
+	top: 20px;
+	background: rgb(207, 205, 199)
+}
+
+.box2 {
+	width: 140px;
+	height: 150px;
+	display: inline-block;
+	background: rgb(207, 205, 199);
+	margin: -150px 150px;
+}
+
+
+.leftnumber {
+	font-size: 72px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 2px 2px #444;
+}
+
+.leftclass{
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 6px;
+	letter-spacing: 1px;
+	font-weight: 3px;
+
+}
+
+.boxdiv1 {
+	width: 140px;
+	height: 32px;
+	margin-left: -2px;
+	margin-top: 22px;
+	border: green 2px solid;
+	background: rgb(182, 174, 162);
+	position: absolute;
+
+
+}
+
+.rightnumber {
+	font-size: 72px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 2px 2px #444;
+}
+
+.rightclass {
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;		
+	margin: 6px;
+	letter-spacing: 1px;
+	font-weight: 3px;
+}
+
+.boxdiv2 {
+	width: 140px;
+	height: 32px;
+	border: solid 2px blue;
+	margin-top: 22px;
+	background: rgb(182, 174, 162);
+	position: absolute;
+
+
+}
+/*end right side box*/
+
+
+
+
+
 
 /*right style*/
 .joinmob .joinbutton {
@@ -247,23 +299,46 @@ body * {
 }
 
 .joinmob {
-	width: 280px;
-	border: 1px solid rgb(162, 162, 162);
-	border-radius: 6px;
-	background: rgb(252,209,0);
+	width: 300px;
+	height: 58px;
 	height: 60px;
+	color: #fff;
 }
 
 .joincard {
+	width: 290px;
+	height: 75px;
 	border: solid 2px blue;
-	height: 45px;
-	margin-top: 0;
+	margin: 2px 4px;
+	background: #fff;
 }
 
+.jointext1 {
+	color: rgb(62, 62, 62);
+	font-size: 15px;
 
+}
+
+.jointext2 {
+	color: rgb(62, 62, 62);
+	font-size: 17px;
+
+}
+
+.joinbottom {
+	margin: 20px -5px;
+	width: 300px;
+	height: 58px;
+	color: rgb(120, 120, 120);
+	font-size: 11px;
+	text-align: center;
+	outline: 2px solid red;
+	border: 1px solid rgb(162, 162, 162)
+}
 
 /*ribbon*/
 .el {
+	padding-top: 6px;
 	display: block;
 	position: relative;
 	top: -22px;
@@ -271,6 +346,10 @@ body * {
 	left: -4px;
 	width: 138px;
 	background: #fdd100;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
 	
 	}
 	
@@ -300,6 +379,13 @@ body * {
 	
 	}
 	/*end ribbon*/
+
+
+.white {
+	min-width: 960px;
+	height: 610px;
+	background-color: #fff
+}
 
 /**/
 
