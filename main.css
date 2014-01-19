@@ -14,7 +14,7 @@ body * {
 .header {
 	position: relative;
 	color: #fff;
-	height: 60px;
+	height: 45px;
 	margin: 0;
 	background: url('images/header.png'); 
 	background-repeat: repeat-x top-left;
@@ -30,6 +30,9 @@ body * {
 .logo {
 	width: 160px;
 	display: inline-block;
+	height: 45px;
+	background-image: url("images/logo.png");
+
 
 }
 
@@ -68,10 +71,9 @@ body * {
 .username {
 	display: inline-block;
 	list-style-type: none;
-	margin: 0 0 0 60px;
-	padding-bottom: 15px;
-	margin-top: 12px;
-	margin-left: 60px; 
+	margin: 0 0 0 47px;
+	padding-bottom: 20px;
+	margin-top: 6px; 
 	letter-spacing: 1px;
 	text-shadow: 0 1px 1px #000;
 
@@ -79,10 +81,9 @@ body * {
 
 
 .avatar img {
-	margin: (0 -5);
 	display: inline-block;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	border-radius: 50%;
 	position: absolute;
 }
@@ -100,14 +101,15 @@ body * {
 
 .banner {
 	-webkit-box-shadow: 0 5px 4px -6px black;
-	        box-shadow: 0 5px 4px -6px black;
 	        z-index: 1;
+	height: 65px;
+	        
+
 }
 
 
 
 .banner h1 {
-	height: 70px;
 	margin-bottom: 0px;
 	background: #fff;
 	text-align: center;
@@ -119,7 +121,7 @@ body * {
 }
 /*end header*/
 .middle {
-	height: 435px;
+	height: 448px;
 	min-width: 960px;
 	background-color: rgb(242,240,236);
 	position: relative;
@@ -132,7 +134,7 @@ body * {
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
-	top: 30px;
+	top: 20px;
 
 }
 
@@ -140,34 +142,39 @@ body * {
 
 /*left middle*/
 .leftcontainer {
-	width: 620px;
-	height: 400px;
+	width: 470px;
+	height: 365px;
 	display: inline-block;
 	top: 10%;
+	margin-left: 38px;
+
 }
 
 .content {
-	width: 465px;
-	height: 300px;
+	max-width: 470;
+	width: 100%;
+	height: 100%;
 	background: url("images/arcade.png");
+	background-repeat: no-repeat;
 	z-index: 3;
 	position: relative;
 	display: inline-block;
+	background-size: contain;
 
 }
 
 .bannertop {
-	height: 52px;
-	width: 620px;
+	height: 40px;
+	width: 470px;
 	background: rgba(0, 0, 0, 0.5);
 	position: relative;
 }
 
 .toptext {
-	margin: 7px 26px;
+	margin: 7px 14px;
 	display: inline-block;
 	color: #fff;
-	font-size: 25px;
+	font-size: 20px;
 	letter-spacing: 1.5px;
 	text-shadow: 0 1px 1px #000;
 
@@ -176,28 +183,45 @@ body * {
 .toptext2 {
 	display: inline-block;
 	color: #fff;
-	font-size: 12px;
+	font-size: 9px;
 	list-style-type: none;
-	width: 170px;
-	margin: -25px 400px;
+	width: 134px;
+	height: 11px;
+	margin: -21px 315px;
 	text-shadow: 0 1px 1px #000;
+	position: absolute;
+}
+
+.clock	{
+	background-image: url("images/clock.png");
+	height: 15px;
+	width: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 168px;
+	margin-top: 5px;
+	position: relative;
+	display: inline-block;
+
+
 }
 
 .graybox {
 	position: absolute;
 	background: rgb(208, 205, 199);
-	width: 620px;
-	height: 85px;
+	width: 470px;
+	height: 65px;
 	z-index: 1;
-	margin-top: -1px;
+	margin-top: -33px;
 
 }
 
 .graybox1 {
 	color: rgb(65, 65, 65);
-	font-size: 18px;
+	font-size: 13px;
 	margin: 19 23;
-	width: 555px;
+	width: 460px;
+	height: 65px;
 	font-style: italic;
 	position: relative;
 }
@@ -205,11 +229,12 @@ body * {
 
 .bottom1 {
 	color: rgb(120, 120, 120);
-	font-size: 13px;
+	font-size: 11px;
 	outline: solid 2px orange;
-	width: 550px;
-	margin: 33px;
-
+	height: 27px;
+	width: 465px;
+	margin: 10px;
+	margin-top: -39px;
 }
 
 /*end left middle*/
@@ -221,7 +246,7 @@ body * {
 	width: 300px;
 	height: 375px;
 	display: inline-block;
-	margin: 0 16px;
+	margin-left: 18px;
 }
 
 .box1 {
@@ -337,17 +362,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 
 .jointext1 {
 	color: rgb(62, 62, 62);
-	font-size: 15px;
+	font-size: 22px;
 	display: inline-block;
-	opacity: 4px;
+	font-weight: bolder;
+	margin-top: 15px;
 
 }
 
 .jointext2 {
-	margin-top: 32;
-	margin-left: -85;
+	margin-top: 40;
+	margin-left: -135;
 	color: rgb(62, 62, 62);
-	font-size: 15px;
+	font-size: 17px;
 	display: inline-block;
 
 }
@@ -364,30 +390,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 }
 
 .joinbottom {
-	margin: 20px -5px;
-	width: 269px;
-	height: 35px;
+	margin-top: -7px;
+	margin-left: 35px;
+	width: 205px;
+	height: 30px;
 	color: rgb(120, 120, 120);
-	font-size: 11px;
+	font-size: 9px;
 	text-align: center;
-	outline: 2px solid red;
 	border: 1px solid rgb(162, 162, 162)
 }
 
 /*ribbon*/
+.mob	{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	height: 12px;
+	width: 125px;
+	text-shadow: 0 1px 1px #fff;
+
+
+}
+
 .el {
 	padding-top: 6px;
 	display: block;
 	position: relative;
-	top: 245px;
-	height: 29px;
-	left: -440px;
+	top: 295px;
+	height: 27px;
+	left: -343px;
 	width: 138px;
 	background: #fdd100;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 14px;
-	box-shadow: 0px 3px 7px; 
+	box-shadow: 0px 1px 5px; 
 	color: rgb(210, 143, 0);
 
 	}
@@ -420,9 +455,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	/*end ribbon*/
 
 .line {
+	margin-top: 23px; 
 	width: 305px;
 	height: 25px;
 	border: solid 2px rgb(177, 177, 177);
+	
 	}
 
 .social {
@@ -463,10 +500,59 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 	display: inline-block;
 	margin-top: 33px;
 	background-repeat: no-repeat;
+	margin-left: 40px;
 }
 
+.part {
 
+	height: 35px;
+	width: 227px;
+	margin-left: 40px;
+}
 
+.part1 {
+	height: 18px;
+	width: 230px;
+
+}
+
+.parttext {
+	height: 20px;
+	width: 150px;
+	color: black;
+	font-weight: bolder;
+	font-size: 6px;
+	margin-top: -12px;
+
+}
+
+.yellow {
+	background-image: url("images/yellow.png");
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 15px;
+	margin-left: 167px;
+	margin-top: -19px;
+
+}
+
+.parttext2 {
+	height: 13px;
+	width: 34px;
+	color: black;
+	font-size: 6px;
+	margin-top: -21px;
+	margin-left: 186px;
+
+}
+
+.parttext3 {
+	height: 12px;
+	width: 152px;
+	font-size: 7px;
+	color: black;
+	margin-top: -4px;
+}
 
 /**/
 
