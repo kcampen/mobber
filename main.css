@@ -32,7 +32,7 @@ body * {
 	display: inline-block;
 	height: 45px;
 	background-image: url("images/logo.png");
-
+ 
 
 }
 
@@ -1347,4 +1347,12 @@ body * {
 	display: inline-block;
 	left: 45px;
 	top: 56px;
+}
+
+.footer2{
+	min-width: 960px;
+	background-color: rgb(84,83,82);
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
 }
