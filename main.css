@@ -547,8 +547,8 @@ body * {
 .yellow {
 	background-image: url("images/clock.svg");
 	background-repeat: no-repeat;
-	height: 15px;
-	width: 15px;
+	height: 18px;
+	width: 18px;
 	margin-left: 167px;
 	margin-top: -19px;
 
@@ -612,8 +612,8 @@ body * {
 .yellow1 {
 	background-image: url("images/clock.svg");
 	background-repeat: no-repeat;
-	height: 15px;
-	width: 15px;
+	height: 18px;
+	width: 18px;
 	margin-left: 163px;
 	margin-top: -20px;
 	display: inline-block;
@@ -674,8 +674,8 @@ body * {
 .yellow3 {
 	background-image: url("images/clock.svg");
 	background-repeat: no-repeat;
-	height: 15px;
-	width: 15px;
+	height: 18px;
+	width: 18px;
 	margin-left: 168px;
 	margin-top: -18px;
 	display: inline-block;
@@ -741,8 +741,9 @@ body * {
 	width: 203px;
 	position: relative;
 	display: inline-block;
-	border: 2px solid;
-	font-weight: 700px;
+	font-weight: bolder;
+	font-size: 23px;
+	top: 20px;
 }
 
 /*table*/
@@ -1005,14 +1006,18 @@ body * {
 	left: 179px;
 	height: 290px;
 	width: 282px;
-	outline: solid 2px red;
 	position: relative;
 	display: inline-block;
 
 
 }
 
+.mobcatlist {
+	display: inline-block;
+	position: relative;
 
+
+}
 
 .mobcat {
 	height: 23px;
@@ -1071,27 +1076,275 @@ body * {
 	text-align: center;
 }
 
+.mobdesign {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
+}
+
+.cattext4 {
+	color: #fff;
+	text-align: center;
+
+}
+
+.mobart {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
+}
+
+.cattext5 {
+	color: #fff;
+	text-align: center;
+
+}
+
+.mobcatlist2 {
+	height: 240px;
+	left: 140px;
+	top: -197px;
+	width: 146px;
+	position: relative;
+	display: inline-block;
 
 
+
+}
+
+.mobgames {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
+}
+
+.cattext6 {
+	color: #fff;
+	text-align: center;
+
+}
+
+.mobtech {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+}
+
+.cattext7 {
+	color: #fff;
+	text-align: center;
+
+}
+
+.mobfilm {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+}
+
+.cattext8 {
+	color: #fff;
+	text-align: center;
+}
+
+.mobsports {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
+}
+
+.cattext9 {
+	color: #fff;
+	text-align: center;
+
+}
+
+.mobtheater {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
+}
+
+.cattext10 {
+	color: #fff;
+	text-align: center;
+
+}
+/*so much div*/
 
 .mobdiv2 {
 	height: 290px;
 	width: 282px;
-	outline: 2px solid blue;
 	position: relative;
 	display: inline-block;
 	left: 200px;
 	top: 25px;
 }
 
+.connect {
+	height: 25px;
+	width: 200px;
+	color: #fff;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bolder;
+	position: relative;
+	left: 36px;
+	text-shadow: 0 1px 3px #000;
+}
+
+.connect2 {
+	height: 50px;
+	width: 200px;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	left: 35px;
+	top: 12px;
+}
+
+.capture {
+	background-image: url("images/eshot.png");
+	height: 185px;
+	width: 240px;
+	background-repeat: no-repeat;
+	z-index: 3;
+	display: inline-block;
+	position: relative;
+	left: 30px;
+	top: 15px;
+}
 
 
 .mobdiv3 {
 	height: 290px;
 	width: 282px;
-	outline: 2px solid yellow;
 	position: relative;
 	display: inline-block;
 	top: 25px;
 	left: 220px;
+}
+
+.works {
+	top: 12px;
+	left: 12px;
+	position: relative;
+	box-shadow: 0 2px 2px rgb(69, 68, 68);
+	border: 1px solid rgb(210,143,0);
+	border-radius: 6px;
+	line-height: 60px;
+	font-size: 20px;
+	text-align: center;
+	width: 255px;
+	height: 57px;
+	z-index: 3;
+	text-shadow: 0 1px 1px rgb(180, 101, 0);
+	background: rgba(241,231,103,1);
+	background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+	background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
+}
+
+.workstext {
+	color: #fff;
+	font-size: 22px;
+	display: inline-block;
+	font-weight: bolder;
+
+}
+
+.last	{
+	width: 167px;
+	height: 25px;
+	color: #fff;
+	font-size: 19px;
+	font-weight: bolder;
+	display: inline-block;
+	position: relative;
+	left: 60px;
+	top: 30px;
+}
+
+.last2 {
+	width: 202px;
+	height: 50px;
+	color: #fff;
+	font-size: 11px;
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	left: 50px;
+	top: 40px;
+
+}
+
+.email {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+	display: inline-block;
+	position: relative;
+	left: 52px;
+	top: 40px;
+}
+
+.etext {
+	color: #fff;
+	text-align: center;	
+}
+
+.lastline {
+	width: 225px;
+	border-top: solid 1px rgb(55, 55, 55);
+	border-bottom: solid 1px rgb(55, 55, 55);
+	display: inline-block;
+	position: relative;
+	top: 50px;
+	left: 20px;
+}
+
+.finally {
+	height: 35px;
+	width: 143px;
+	color: #fff;
+	font-size: 13px;
+	position: relative;
+	display: inline-block;
+	left: 45px;
+	top: 56px;
 }
