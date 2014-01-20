@@ -32,7 +32,7 @@ body * {
 	display: inline-block;
 	height: 45px;
 	background-image: url("images/logo.png");
- 
+
 
 }
 
@@ -502,12 +502,14 @@ body * {
 .white {
 	min-width: 960px;
 	height: 460px;
+	margin: 0 auto;
 	background-color: #fff
 }
 
 .divider {
 	min-width: 745px;
 	height: 215px;
+	margin: 0 auto;
 }
 
 .image1 {
@@ -706,8 +708,7 @@ body * {
 .upcoming {
 	width: 725px;
 	height: 190px;
-	margin-top: 20px;
-	margin-left: 188px;
+	margin: 0 auto;
 	
 
 }	
@@ -715,6 +716,7 @@ body * {
 .line2 {
 	width: 725px;
 	height: 0px;
+	margin: 0 auto;
 	border-top: solid 1px rgb(177, 177, 177);
 	border-bottom: solid 1px rgb(177, 177, 177);
 	display: inline-block;
@@ -1019,94 +1021,21 @@ body * {
 
 }
 
-.mobcat {
-	height: 23px;
-	width: 150px;
-	color: #fff;
-	font-size: 20px;
-	font-weight: bolder;
-	display: inline-block;
-	position: relative;
-	
-}
 
-.mobmusic {
+.footer-button {
 	background-color: rgb(99, 99, 98);
 	height: 38px;
 	width: 138px;
 	border: solid 1px rgb(46, 45, 46);
 	border-radius: 6;
 	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-
-}
-
-.cattext1 {
 	color: #fff;
 	text-align: center;
+	line-height: 38px;
 
 }
 
-.mobcharity {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
 
-}
-
-.cattext2 {
-	color: #fff;
-	text-align: center;
-}
-
-.mobfashion {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-
-}
-
-.cattext3 {
-	color: #fff;
-	text-align: center;
-}
-
-.mobdesign {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-
-}
-
-.cattext4 {
-	color: #fff;
-	text-align: center;
-
-}
-
-.mobart {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-
-}
-
-.cattext5 {
-	color: #fff;
-	text-align: center;
-
-}
 
 .mobcatlist2 {
 	height: 240px;
@@ -1115,87 +1044,8 @@ body * {
 	width: 146px;
 	position: relative;
 	display: inline-block;
-
-
-
 }
 
-.mobgames {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-
-}
-
-.cattext6 {
-	color: #fff;
-	text-align: center;
-
-}
-
-.mobtech {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-}
-
-.cattext7 {
-	color: #fff;
-	text-align: center;
-
-}
-
-.mobfilm {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-}
-
-.cattext8 {
-	color: #fff;
-	text-align: center;
-}
-
-.mobsports {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-
-}
-
-.cattext9 {
-	color: #fff;
-	text-align: center;
-
-}
-
-.mobtheater {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
-
-}
-
-.cattext10 {
-	color: #fff;
-	text-align: center;
-
-}
 /*so much div*/
 
 .mobdiv2 {
@@ -1311,12 +1161,7 @@ body * {
 }
 
 .email {
-	background-color: rgb(99, 99, 98);
-	height: 38px;
-	width: 138px;
-	border: solid 1px rgb(46, 45, 46);
-	border-radius: 6;
-	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
 	display: inline-block;
 	position: relative;
 	left: 52px;
@@ -1347,12 +1192,4 @@ body * {
 	display: inline-block;
 	left: 45px;
 	top: 56px;
-}
-
-.footer2{
-	min-width: 960px;
-	background-color: rgb(84,83,82);
-	height: 200px;
-	position: relative;
-	margin: 0 auto;
 }
