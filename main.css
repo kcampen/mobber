@@ -226,13 +226,23 @@ body * {
 	position: relative;
 }
 
+.arrow {
+	margin-left: -23px;
+	margin-top: -6px;
+	height: 24px;
+	width: 37px;
+	z-index: 2;
+	background-image: url("images/arrow.png");
+	background-repeat: no-repeat;
+}
+
 
 .bottom1 {
 	color: rgb(120, 120, 120);
 	font-size: 11px;
 	height: 27px;
 	width: 465px;
-	margin: 10px;
+	margin: 21px;
 	margin-top: -39px;
 }
 
@@ -346,7 +356,7 @@ body * {
 	background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
 	background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
 	background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
 
 
 }
@@ -990,3 +1000,98 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 }
 
 
+.mobdiv {
+	top: 25px;
+	left: 179px;
+	height: 290px;
+	width: 282px;
+	outline: solid 2px red;
+	position: relative;
+	display: inline-block;
+
+
+}
+
+
+
+.mobcat {
+	height: 23px;
+	width: 150px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bolder;
+	display: inline-block;
+	position: relative;
+	
+}
+
+.mobmusic {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
+}
+
+.cattext1 {
+	color: #fff;
+	text-align: center;
+
+}
+
+.mobcharity {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
+}
+
+.cattext2 {
+	color: #fff;
+	text-align: center;
+}
+
+.mobfashion {
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+
+}
+
+.cattext3 {
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+.mobdiv2 {
+	height: 290px;
+	width: 282px;
+	outline: 2px solid blue;
+	position: relative;
+	display: inline-block;
+	left: 200px;
+	top: 25px;
+}
+
+
+
+.mobdiv3 {
+	height: 290px;
+	width: 282px;
+	outline: 2px solid yellow;
+	position: relative;
+	display: inline-block;
+	top: 25px;
+	left: 220px;
+}
