@@ -2,6 +2,7 @@ body {
 	font-family: 'Didact Gothic', sans-serif;
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 
@@ -14,7 +15,7 @@ body * {
 .header {
 	position: relative;
 	color: #fff;
-	height: 45px;
+	height: 60px;
 	margin: 0;
 	background: url('images/header.png'); 
 	background-repeat: repeat-x top-left;
@@ -28,40 +29,49 @@ body * {
 }
 
 .logo {
-	width: 160px;
+	width: 170px;
 	display: inline-block;
-	height: 45px;
+	height: 60px;
 	background-image: url("images/logo.png");
 
 
 }
 
 .nav {
-	display: inline-block;
-	margin: 0 0 0 40px;
-	padding: 0;
-
-}
-
-.nav ul {
-	display: inline-block;
-}
-
-.nav li {
+	left: 33px;
+	line-height:55px;
 	list-style-type: none;
 	display: inline-block;
 	text-transform: uppercase;
-	margin-right: 30px;
+	margin: 0 auto;
 	text-shadow: 0 1px 1px #000;
 	font-size: 17px;
 	letter-spacing: 1px;
 	color: white;
+	display: inline-block;
+	position: relative;
 
+}
+
+.nav1 {
+	left: 76px;
+	line-height: 55px;
+	list-style-type: none;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-shadow: 0 1px 1px #000;
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: white;
+	display: inline-block;
+	position: relative;
 }
 /*right header*/
 
 .usermenu {
-	right: 0;
+	margin: 0 auto;
+	left: 725px;
 	top: 5;
 	display: inline-block;
 	position: absolute;
@@ -69,10 +79,13 @@ body * {
 }
 
 .username {
+	position: relative;
 	display: inline-block;
 	list-style-type: none;
-	margin: 0 0 0 47px;
+	left: 67px;
+	font-size: 17px;
 	padding-bottom: 20px;
+	line-height: 31px;
 	margin-top: 6px; 
 	letter-spacing: 1px;
 	text-shadow: 0 1px 1px #000;
@@ -82,8 +95,10 @@ body * {
 
 .avatar img {
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	margin: 0 auto;
+	top: -5px;
+	height: 60px;
 	border-radius: 50%;
 	position: absolute;
 }
@@ -91,8 +106,13 @@ body * {
 .usermenubutton {
 	width: 23px;
 	height: 60px;	
-	margin: -5 3 ;
+	margin: 0 auto;
+	position: relative;
+	left: 68px;
+	top: -5px;
 	display: inline-block;
+	background-image: url('images/triangle.png');
+	background-repeat: no-repeat;
 	
 }
 
@@ -100,38 +120,43 @@ body * {
 /* Banner! */
 
 .banner {
-	-webkit-box-shadow: 0 5px 4px -6px black;
-	        z-index: 1;
-	height: 65px;
-	        
+	z-index: 1;
+	margin: 0 auto;
+	height: 88px;
+	position: relative;
+	box-shadow: 0 5px 5px -4px gray;
+
 
 }
 
 
 
-.banner h1 {
-	margin-bottom: 0px;
+.banner1 {
+	margin: 0 auto;
 	background: #fff;
 	text-align: center;
 	color: black;
-	font-size: 30px;
-	font-weight: -1px;
+	font-size: 36px;
+	position: relative;
+	line-height: 70px;
+	
 
 
 }
 /*end header*/
 .middle {
-	height: 448px;
+	height: 580px;
 	min-width: 960px;
 	background-color: rgb(242,240,236);
 	position: relative;
-	margin: 0 0 0 -15;
+	margin: 0 auto;
 	z-index: -1;
 
 }
 
 .bodycontainer {
 	width: 960px;
+	height: 530px;
 	margin: 0 auto;
 	position: relative;
 	top: 20px;
@@ -142,8 +167,8 @@ body * {
 
 /*left middle*/
 .leftcontainer {
-	width: 470px;
-	height: 365px;
+	width: 620px;
+	height: 532px;
 	display: inline-block;
 	top: 10%;
 	margin-left: 38px;
@@ -151,7 +176,8 @@ body * {
 }
 
 .content {
-	max-width: 470;
+	height: 400px;
+	width: 620px;
 	width: 100%;
 	height: 100%;
 	background: url("images/arcade.png");
@@ -164,8 +190,8 @@ body * {
 }
 
 .bannertop {
-	height: 40px;
-	width: 470px;
+	height: 55px;
+	width: 620px;
 	background: rgba(0, 0, 0, 0.5);
 	position: relative;
 }
@@ -174,7 +200,7 @@ body * {
 	margin: 7px 14px;
 	display: inline-block;
 	color: #fff;
-	font-size: 20px;
+	font-size: 33px;
 	letter-spacing: 1.5px;
 	text-shadow: 0 1px 1px #000;
 
@@ -183,23 +209,25 @@ body * {
 .toptext2 {
 	display: inline-block;
 	color: #fff;
-	font-size: 9px;
+	font-size: 12px;
 	list-style-type: none;
-	width: 134px;
-	height: 11px;
-	margin: -21px 315px;
-	text-shadow: 0 1px 1px #000;
-	position: absolute;
+	width: 170px;
+	height: 20px;
+	margin: 0 auto;
+	left: 204px;
+	line-height: 40px;
+	position: relative;
 }
 
 .clock	{
 	background-image: url("images/clock.svg");
-	height: 15px;
-	width: 16px;
+	height: 22px;
+	width: 26px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin-left: 168px;
-	margin-top: 5px;
+	margin: 0 auto;
+	left: 204px;
+	top: 11px;
 	position: relative;
 	display: inline-block;
 
@@ -207,44 +235,109 @@ body * {
 }
 
 .graybox {
-	position: absolute;
+	position: relative;
+	display: inline-block;
 	background: rgb(208, 205, 199);
-	width: 470px;
-	height: 65px;
+	width: 620px;
+	height: 83px;
 	z-index: 1;
-	margin-top: -33px;
+	margin: 0 auto;
+	bottom: 82px;
 
 }
 
 .graybox1 {
 	color: rgb(65, 65, 65);
-	font-size: 13px;
 	margin: 19 23;
-	width: 460px;
-	height: 65px;
+	font-size: 20px;
+	width: 620px;
 	font-style: italic;
 	position: relative;
 }
 
 .arrow {
-	margin-left: -23px;
-	margin-top: -6px;
+	bottom: 27px;
+	right: 23px;
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
 	height: 24px;
-	width: 37px;
+	width: 39px;
 	z-index: 2;
 	background-image: url("images/arrow.png");
 	background-repeat: no-repeat;
 }
 
-
 .bottom1 {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
 	color: rgb(120, 120, 120);
 	font-size: 11px;
-	height: 27px;
-	width: 465px;
-	margin: 21px;
-	margin-top: -39px;
+	height: 30px;
+	width: 532px;
+	bottom: 64px;
+	left: 30px;
+	
 }
+
+
+/*ribbon*/
+.mob	{
+	color: #fff;
+	position: relative;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	height: 12px;
+	width: 125px;
+	text-shadow: 0 1px 1px rgb(210, 143, 0);
+	margin: 0 auto;
+	bottom: 8px;
+
+
+}
+
+.el {
+	padding-top: 6px;
+	display: block;
+	position: relative;
+	top: 385px;
+	height: 30px;
+	left: -445px;
+	width: 143px;
+	background: #fdd100;
+	box-shadow: 0px 1px 5px; 
+	color: rgb(210, 143, 0);
+
+	}
+	
+.el:before, .el:after {
+	content: '';
+	display: block;
+	position: absolute;
+	border-style: solid;
+	
+	}
+	
+.el:before {
+	display: block;
+	left: 0;
+	top: 29px;
+	border-width: 8px;
+	border-color: #fdd100 #fdd100 transparent transparent;
+	
+	}
+	
+.el:after {
+	display: none;
+	right: 0;
+	top: 29px;
+	border-width: 8px;
+	border-color: #fdd100 transparent transparent #fdd100;
+	
+	}
+	/*end ribbon*/
 
 /*end left middle*/
 
@@ -252,32 +345,35 @@ body * {
 
 
 .sidebar {
-	width: 300px;
-	height: 375px;
+	width: 304px;
+	height: 420px;
 	display: inline-block;
-	margin-left: 18px;
+	position: absolute;
+	right: -20px;
 }
 
 .box1 {
-	width: 140px;
-	height: 150px;
+	width: 142px;
+	height: 153px;
 	top: 20px;
 	background: rgb(207, 205, 199)
 }
 
 .box2 {
-	width: 140px;
-	height: 150px;
+	width: 142px;
+	height: 153px;
 	display: inline-block;
 	background: rgb(207, 205, 199);
-	margin: -150px 150px;
+	margin: -153px 150px;
 }
 
 
 .leftnumber {
-	font-size: 72px;
+	font-size: 74px;
 	text-align: center;
 	color: #fff;
+	position: relative;
+	top: 15px;
 	text-shadow: 0 1px 1px #444;
 }
 
@@ -292,9 +388,9 @@ body * {
 }
 
 .boxdiv1 {
-	width: 140px;
+	width: 142px;
 	height: 32px;
-	margin-top: 24px;
+	margin-top: 26px;
 	background: rgb(182, 174, 162);
 	position: absolute;
 
@@ -302,9 +398,11 @@ body * {
 }
 
 .rightnumber {
-	font-size: 72px;
+	font-size: 74px;
 	text-align: center;
 	color: #fff;
+	position: relative;
+	top: 15px;
 	text-shadow: 0 1px 1px #444;
 }
 
@@ -319,9 +417,9 @@ body * {
 }
 
 .boxdiv2 {
-	width: 140px;
+	width: 142px;
 	height: 32px;
-	margin-top: 24px;
+	margin-top: 26px;
 	background: rgb(182, 174, 162);
 	position: absolute;
 
@@ -362,8 +460,8 @@ body * {
 }
 
 .joincard {
-	width: 289px;
-	height: 73px;
+	width: 290px;
+	height: 77px;
 	margin: -2 4px;
 	background: #fff;
 	position: relative;
@@ -414,59 +512,6 @@ body * {
 
 }
 
-/*ribbon*/
-.mob	{
-	color: #fff;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 14px;
-	height: 12px;
-	width: 125px;
-	text-shadow: 0 1px 1px #fff;
-
-
-}
-
-.el {
-	padding-top: 6px;
-	display: block;
-	position: relative;
-	top: 295px;
-	height: 27px;
-	left: -343px;
-	width: 138px;
-	background: #fdd100;
-	box-shadow: 0px 1px 5px; 
-	color: rgb(210, 143, 0);
-
-	}
-	
-.el:before, .el:after {
-	content: '';
-	display: block;
-	position: absolute;
-	border-style: solid;
-	
-	}
-	
-.el:before {
-	display: block;
-	left: 0;
-	top: 29px;
-	border-width: 8px;
-	border-color: #fdd100 #fdd100 transparent transparent;
-	
-	}
-	
-.el:after {
-	display: none;
-	right: 0;
-	top: 29px;
-	border-width: 8px;
-	border-color: #fdd100 transparent transparent #fdd100;
-	
-	}
-	/*end ribbon*/
 
 .line {
 	margin-top: 5px; 
@@ -479,7 +524,7 @@ body * {
 
 .social {
 	height:32px;
-	width: 139px;
+	width: 186px;
 	background-image: url("images/social.png");
 	display: inline-block;
 	background-repeat: no-repeat;
@@ -501,21 +546,21 @@ body * {
 
 .white {
 	min-width: 960px;
-	height: 460px;
+	height: 612px;
 	margin: 0 auto;
 	background-color: #fff
 }
 
 .divider {
 	min-width: 745px;
-	height: 215px;
+	height: 310px;
 	margin: 0 auto;
 }
 
 .image1 {
-	background-image: url("images/watch.png");
-	height: 149px;
-	width: 227px;
+	background-image: url("images/watch1.png");
+	height: 197px;
+	width: 302px;
 	position: relative;
 	display: inline-block;
 	margin-top: 33px;
@@ -531,8 +576,8 @@ body * {
 }
 
 .part1 {
-	height: 18px;
-	width: 230px;
+	height: 19px;
+	width: 163px;
 
 }
 
@@ -549,20 +594,23 @@ body * {
 .yellow {
 	background-image: url("images/clock.svg");
 	background-repeat: no-repeat;
-	height: 18px;
-	width: 18px;
-	margin-left: 167px;
-	margin-top: -19px;
+	height: 22px;
+	width: 24px;
+	position: relative;
+	margin-left: 228px;
+	margin-top: -18px;
 
 }
 
 .parttext2 {
+	position: relative;
+	display: inline-block;
 	height: 13px;
 	width: 34px;
 	color: black;
 	font-size: 6px;
-	margin-top: -21px;
-	margin-left: 186px;
+	margin-top: -28px;
+	margin-left: 255px;
 
 }
 
@@ -575,14 +623,14 @@ body * {
 }
 
 .image2 {
-	background: url("images/promoimage.png");
+	background: url("images/promoimage1.png");
 	background-repeat: no-repeat;
-	height: 149px;
-	width: 227px;
+	height: 197px;
+	width: 302px;
 	position: relative;
 	display: inline-block;
-	margin-top: -185px;
-	margin-left: 282px;
+	bottom: 229px;
+	margin-left: 362px;
 
 
 }
@@ -606,18 +654,21 @@ body * {
 	height: 20px;
 	width: 150px;
 	color: black;
+	display: inline-block;
+	position: relative;
 	font-weight: bolder;
 	font-size: 6px;
+	right: 74px;
 
 }
 
 .yellow1 {
 	background-image: url("images/clock.svg");
 	background-repeat: no-repeat;
-	height: 18px;
-	width: 18px;
+	height: 22px;
+	width: 24px;
 	margin-left: 163px;
-	margin-top: -20px;
+	margin-top: -9px;
 	display: inline-block;
 
 }
@@ -641,82 +692,96 @@ body * {
 	color: black;
 	position: relative;
 	margin-top: 12px;
+	right: 73px;
 
 }
 
 .image3 {
-	background: url("images/twisted.png");
+	background: url("images/twisted1.png");
 	background-repeat: no-repeat;
-	height: 149px;
-	width: 227px;
+	height: 197px;
+	width: 302px;
 	display: inline-block;
 	position: relative;
-	margin-top: -180px;
-	margin-left: 16px;
+	bottom: 425px;
+	left: 689px;
 }
 
 .tour {
 	height: 57px;
 	width: 227px;
 	display: inline-block;
-	position: relative;
-	margin-left: -230px;
-	margin-top: -43px;
+	position: absolute;
+	margin: 0 auto;
+	left: 725px;
+	bottom: 32px;
 }
 
 .tour1 {
 	height: 20px;
 	width: 156px;
 	color: black;
+	position: absolute;
+	display: inline-block;
 	font-weight: bolder;
 	font-size: 5px;
+	margin: 0 auto;
+	right: 105px;
 
 }
 
 .yellow3 {
 	background-image: url("images/clock.svg");
 	background-repeat: no-repeat;
-	height: 18px;
-	width: 18px;
+	height: 22px;
+	width: 24px;
 	margin-left: 168px;
-	margin-top: -18px;
+	margin-top: 7px;
 	display: inline-block;
+	position: relative;
 
 }
 
 .tour2 {
 	height: 13px;
-	width: 34px;
+	width: 50px;
 	color: black;
-	font-size: 6px;
+	font-size: 7px;
 	position: relative;
 	display: inline-block;
 	margin-top: -23px;
+	left: 203px;
 
 }
 
 .tour3 {
 	height: 12px;
-	width: 152px;
+	width: 200px;
 	font-size: 7px;
 	color: black;
+	display: inline-block;
 	position: relative;
-	margin-top: -20px;
+	margin-top: -3px;
+	right: 35px;
 
 }
 
 .upcoming {
-	width: 725px;
-	height: 190px;
+	position: relative;
+	width: 980px;
+	height: 225px;
 	margin: 0 auto;
+
 	
 
 }	
 
 .line2 {
-	width: 725px;
+	width: 950px;
 	height: 0px;
 	margin: 0 auto;
+	position: relative;
+	left: 225px;
 	border-top: solid 1px rgb(177, 177, 177);
 	border-bottom: solid 1px rgb(177, 177, 177);
 	display: inline-block;
@@ -731,10 +796,12 @@ body * {
 }
 
 .upbox {
-	height: 170px;
-	width: 475px;
-	display: inline;
+	height: 50px;
+	width: 225px;
+	display: inline-block;
 	position: relative;
+	margin: 0 auto;
+	left: 40px;
 	
 }
 
@@ -755,8 +822,10 @@ body * {
 	border-spacing:0;
 	width: 480px;
 	height: 130px;
-	margin-top: 36px;
-	margin-left: -3px;
+	top: 36px;
+	right: 215px;
+	position: relative;
+	margin: 0 auto;
 }
 
 .tg td{
@@ -805,8 +874,8 @@ body * {
 	width: 300px;
 	display: inline-block;
 	position: relative;
-	margin-left: 487px;
-	margin-top: -191px;
+	left: 690px;
+	bottom: 166px;
 	background-color: rgb(208, 205, 199);
 
 }
@@ -998,6 +1067,7 @@ body * {
 .footer {
 	height: 340px;
 	min-width: 960px;
+	margin: 0 auto;
 	background-color: rgb(84,83,82);
 
 }
@@ -1010,6 +1080,7 @@ body * {
 	width: 282px;
 	position: relative;
 	display: inline-block;
+	color: #fff;
 
 
 }
@@ -1040,7 +1111,7 @@ body * {
 .mobcatlist2 {
 	height: 240px;
 	left: 140px;
-	top: -197px;
+	top: -200px;
 	width: 146px;
 	position: relative;
 	display: inline-block;
@@ -1079,6 +1150,15 @@ body * {
 	position: relative;
 	left: 35px;
 	top: 12px;
+}
+
+.input {
+	height: 40px;
+	width: 147px;
+	border-radius: 5px;
+	position: absolute;
+	color: gray;
+	font-size: 18px;
 }
 
 .capture {
@@ -1161,7 +1241,15 @@ body * {
 }
 
 .email {
-
+	background-color: rgb(99, 99, 98);
+	height: 38px;
+	width: 138px;
+	border: solid 1px rgb(46, 45, 46);
+	border-radius: 6;
+	box-shadow: inset 0 1px 1px rgb(145, 145, 144);
+	color: #fff;
+	text-align: center;
+	line-height: 38px;
 	display: inline-block;
 	position: relative;
 	left: 52px;
