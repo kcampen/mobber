@@ -1,7 +1,8 @@
 body {
 	font-family: 'Didact Gothic', sans-serif;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
 	height: 100%;
 }
 
@@ -771,9 +772,6 @@ body * {
 	width: 980px;
 	height: 225px;
 	margin: 0 auto;
-
-	
-
 }	
 
 .line2 {
@@ -781,7 +779,7 @@ body * {
 	height: 0px;
 	margin: 0 auto;
 	position: relative;
-	left: 225px;
+	left: 269px;
 	border-top: solid 1px rgb(177, 177, 177);
 	border-bottom: solid 1px rgb(177, 177, 177);
 	display: inline-block;
@@ -1062,20 +1060,19 @@ body * {
 }
 
 
-
-
 .footer {
 	height: 340px;
 	min-width: 960px;
 	margin: 0 auto;
 	background-color: rgb(84,83,82);
+	overflow: hidden;
 
 }
 
 
 .mobdiv {
 	top: 25px;
-	left: 179px;
+	left: 270px;
 	height: 290px;
 	width: 282px;
 	position: relative;
@@ -1087,9 +1084,6 @@ body * {
 
 .mobcatlist {
 	display: inline-block;
-	position: relative;
-
-
 }
 
 
@@ -1103,6 +1097,7 @@ body * {
 	color: #fff;
 	text-align: center;
 	line-height: 38px;
+	margin: 11px -3px;
 
 }
 
@@ -1110,8 +1105,8 @@ body * {
 
 .mobcatlist2 {
 	height: 240px;
-	left: 140px;
-	top: -200px;
+	left: 150px;
+	top: -266px;
 	width: 146px;
 	position: relative;
 	display: inline-block;
@@ -1124,7 +1119,7 @@ body * {
 	width: 282px;
 	position: relative;
 	display: inline-block;
-	left: 200px;
+	left: 338px;
 	top: 25px;
 }
 
@@ -1152,13 +1147,14 @@ body * {
 	top: 12px;
 }
 
-.input {
+.social-input {
 	height: 40px;
-	width: 147px;
+	width: 190px;
 	border-radius: 5px;
-	position: absolute;
 	color: gray;
 	font-size: 18px;
+	margin-left: 40px;
+	margin-top: 12px;
 }
 
 .capture {
@@ -1179,8 +1175,8 @@ body * {
 	width: 282px;
 	position: relative;
 	display: inline-block;
-	top: 25px;
-	left: 220px;
+	top: 17px;
+	left: 369px;
 }
 
 .works {
